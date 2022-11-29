@@ -35,5 +35,5 @@ def update():
         c.pos = (randint(0, WIDTH), randint(0, HEIGHT))
         sounds.s1.play()
     print(p.x, p.y, p.angle)
-
+    
 pgzrun.go()    
